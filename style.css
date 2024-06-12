@@ -1,0 +1,294 @@
+
+
+:root{
+   --cor-de-fundo: #F8F5F6;
+   --cor-de-fundo-secundária: #FFE0E2;
+   --cor-de-link: #EA3B46;
+   --cor-fonte-principal: #464646;
+   --branco: white;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo) ;
+    font-family: 'Raleway';
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    gap: 32px;
+    color: var(--cor-fonte-principal);
+    
+}
+ol, ul,li {
+    list-style: none;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: var(--cor-de-link);
+}
+
+/*Sessão Menu*/
+
+section.menu{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 10% 32px 10%;
+    gap: 10%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    color: var(--cor-fonte-principal);
+    
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    
+}
+
+.menu__list {
+    display: flex;
+    gap: 32px;
+    
+}
+
+/*Sessão Title*/
+
+section.title{
+    display: flex;
+    align-items: center;
+    margin: 0 10% 0 10%;
+    justify-content: center;
+    padding: 32px 0 32px 0;
+}
+
+.title__div {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.title__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    max-width: 751px;
+}
+
+.title__network {
+    display: flex;
+    padding: 0;
+    gap: 32px;
+}
+
+.title__bio {
+    font-size: 52px;
+    margin: 0;
+}
+
+.title__subsection {
+    font-size: 22px;
+    margin: 0;
+}
+
+.title__profile {
+    display: block;
+    max-width: 316px;
+    max-height: 318px;
+    width: auto;
+    height: auto;
+   
+}
+
+/*Sessão About*/
+
+section.about{
+    display: flex;
+    background-color: var(--cor-de-fundo-secundária);
+}
+
+.about__title {
+    font-size: 32px;
+    margin: 10px 0 20px 0;
+}
+
+.about__container {
+    margin: 64px 10% 64px 10%;
+}
+
+/* Sessão Skills */
+
+section.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.skills__title {
+    font-size: 32px;
+
+}
+
+.skills__line{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10% 0 10%;
+}
+
+.skills__box {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--branco);
+    border-radius: 20px;
+    width: 200px;
+    padding: 25px 0px 25px 0px;
+}
+
+.skills__name {
+    padding: 10px;
+}
+
+/*Sessão Hobbies*/
+
+section.hobbies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.hobbies__title {
+    font-size: 32px;
+
+}
+
+.hobbies__line{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10% 0 10%;
+}
+
+.hobbies__box {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--branco);
+    border-radius: 20px;
+    width: 200px;
+    padding: 25px 0px 25px 0px;
+}
+
+.hobbies__name {
+    padding: 10px;
+}
+
+/* Experiência Acadêmica*/
+
+section.academic{
+    background-color: var(--cor-de-fundo-secundária);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 3% 10% 3% 10%;
+}
+
+.academic__title {
+    font-size: 32px;
+}
+
+.academic__courses {
+    display: flex;
+}
+
+.academic__courses__item__img {
+    background-color: var(--branco);
+    width: 350px;
+    height: 300px;
+    display: block;
+    align-content: center;
+    border-radius: 20px;
+    margin: 0 20px 0 20px;
+}
+
+.academic__courses__item__title {
+    font-size: 22px;
+}
+
+.academic__courses__item__subtitle {
+    font-size: 16px;
+}
+
+/* experiência*/
+
+section.experience{
+
+}
+
+/*Contato*/
+
+section.formcontato{
+
+}
+
+/*footeer*/
+
+section.footer{
+   
+}
+
+/* Chegou a hora de se desafiar com a responsividade, 
+utilize como referência os breakpoints @media abaixo*/
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menu */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Experiências acadêmicas*/
+
+/*Expeirência profissional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sessão sobre*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formação Acadêmica*/
+
+/*Experiência Profissional*/
+
+ /*Contato*/
+
+/*Footer*/
+
+}
